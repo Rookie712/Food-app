@@ -1,0 +1,12 @@
+.itemButton{
+    padding: 0.5rem 2rem;
+    background-color:#310303;
+    border:inherit;
+    border-radius: 1rem;
+    color: white;
+ }
+ .dishItemForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }

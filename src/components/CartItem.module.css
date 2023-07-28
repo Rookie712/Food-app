@@ -1,0 +1,46 @@
+.mainCartItem{
+    width:100%;
+}
+.main-cart-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0.5rem 1rem;
+    width: 94%;
+    gap:16rem;
+}
+.first-header{
+    padding:0.2rem 0.3rem;
+    width:30%;
+}
+.first-header h3{
+    display: block;
+}
+.piece{
+    display: block;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    gap:4rem;
+}
+.cartItemButton{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    width: 20%;
+}
+.cartItemButton button{
+    padding: 0.2rem 1rem;
+    border: 1px solid #592626;
+    border-radius: 1rem;
+    color: #592626;
+    font-size: 1.25rem;
+}
+.cartItemButton button:hover{
+    background-color: #592626;
+    color: white;
+}

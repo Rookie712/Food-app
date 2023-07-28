@@ -1,0 +1,29 @@
+.main-item{
+    display: flex;
+    flex-direction: column;
+    width: 14rem;
+    background-color: rgb(89, 38, 38);
+    border:inherit;
+    border-radius: 1rem;
+    color:White;
+    padding: 1rem;
+    box-shadow: 2px 2px 10px  rgb(65, 27, 27,0.2), -2px -2px 10px  rgb(65, 27, 27,0.2);
+    transition-property:all ;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.main-item img{
+    object-fit:contain;
+    border-radius: 2rem;
+}
+.main-item h1,h3{
+    display: block;
+}
+ .main-item h1,h3{
+    align-self: center;
+ }
+
+ .main-item:hover{
+    transform: scale(1.05);
+ }

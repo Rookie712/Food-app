@@ -1,0 +1,47 @@
+.main-head{
+    background-image:url(https://img.freepik.com/free-photo/flat-lay-batch-cooking-composition_23-2148765597.jpg) ;
+    background-size:auto;
+    background-repeat: repeat;
+    color: wheat;
+    height:50vh;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.name-head{
+    background-color: #b62956;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    gap:35rem;
+    border:inherit;
+}
+.name-head h1{
+    margin: 0;
+    color:white;
+}
+.name-head button{
+    border: inherit;
+    border-radius: 5rem;
+    padding: 0.9rem 2.5rem;
+    background-color:#180A0A ;
+    color: white;
+}
+.name-head button:hover{
+    background-color:#592626;
+}
+.cart{
+    margin-right: 1rem;
+    color: white;
+}
+.itemNo{
+    background-color: #592626;
+    margin-left: 1rem;
+    padding:0.8rem 1.125rem;
+    font-size: 14px;
+    font-weight: bold;
+    border:initial;
+    border-radius:50%;
+    height:8px;
+}

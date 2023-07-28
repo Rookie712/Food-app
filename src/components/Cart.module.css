@@ -1,0 +1,33 @@
+
+.cartButton{
+    padding: 0.5rem 1.8rem;
+    border: 1px solid #180A0A;
+    border-radius: 1rem;
+    color: #180A0A;
+    font-weight:bold;
+}
+.order{
+    padding: 0.5rem 1.8rem;
+    border: 1px solid white;
+    border-radius:1rem;
+    color: white;
+    background-color: #180A0A;
+    font-weight: bold;
+}
+.cartMainButton{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    gap:1.5rem;
+}
+.bill{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:14rem;
+    color: #461d1d;
+}
+.cartItem{
+    max-height: 17rem;
+    overflow: scroll;
+}

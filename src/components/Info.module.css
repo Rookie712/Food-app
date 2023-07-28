@@ -1,0 +1,12 @@
+.main-info{
+    width: 34%;
+    height: auto;
+    position:absolute;
+    top:12rem;
+    left:27rem;
+    background-color: #411b1b;
+    color: white;
+    padding: 1.5rem;
+    border: inherit;
+    border-radius: 2rem;
+}
